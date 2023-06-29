@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Form Elements</title>
+    </head>
+    <body>
+        <h1>Form Elements</h1>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" id="username"/>
+        </form>
+        <br>
+        <form>
+            <label for="description">username</label>
+            <textarea id="description"></textarea>
+        </form>
+        <br>
+        <form>
+            <label for="password">Password</label>
+            <input type="password" id="password"/>
+        </form>
+        <br>
+        <form>
+            <p>Choose Your Gender</p>
+            <label for="maleOption">Male</label>
+            <input type="radio" id="maleOption" value="male" name="gender"/>
+            <label for="femaleOption">Female</label>
+            <input type="radio" id="femaleOption" value="female" name="gender"/>
+        </form>
+        <br>
+        <form>
+            <p>Choose Your Tool</p>
+            <label for="googleAds">Google Ads</label>
+            <input type="checkbox" id="googleAds" value="googleAds"/>
+            <label for="facebookAds">Facebook Ads</label>
+            <input type="checkbox" id="facebookAds" value="facebookAds"/>
+            <label for="Analytics">Analytics</label>
+            <input type="checkbox" id="Analytics" value="Analytics"/>
+            <label for="SEO">SEO</label>
+            <input type="checkbox" id="SEO" value="SEO"/>
+        </form>
+        <br>
+        <form action="http://www.marketingfreak.in">
+            <input type="submit" value="Submit"/>
+        </form>
+        <br>
+        <form>
+            <input type="button" value="Button" onclick="alert('1st Button')"/>
+            <input type="button" value="Unbutton" onclick="alert('2nd Button')"/>
+        </form>
+        <br>
+        <p>In submit input type, we dont use label for display, the text that needs to be displayed is added inside the value.
+            Here, the user can click the submit button, but the data will not be stored. since this input type Synchronous loading. 
+            When we clicked on the submit button, the user was redirected to a fresh page which was loaded after 
+            discarding the current page hence its called Synchronous loading.</p>
+            <p>Here, we used "action" property / attribute inside the form tag so that when clicked on submit button, an action could be performed.</p>
+            <p>Checkbox allows multiple selection within the defined set of otpions.</p>
+            <p>Label is only for the front display and Value is for us to internal see what option the user has selected.</p>
+            <p>For radio button type, browser will allow the user to choose both the options by default. 
+                Adding the tag "name" and defining its value for ex - name="gender", the user will now be able to choose only 1 option. 
+                Here gender is a variable. inside 1 variable only 1 value can be set. 
+                in this case, we have male and female - so when we give name to any radio and give same name then it has common variable. 
+                since its a variable it allows only 1 value to be set</p>
+                <p>In input type button, when we add only value, when clicked it doesnt do any action.</p>
+                <p>Every input elements has events for example , checkbox - check, uncheck are the events.</p> 
+                <p>To detect the change on the input elements, we use events.</p>
+                <p>For button, common event used is onclick. we will also give value inside onclick to tell the browser what to do when clicked. 
+                general output element is alert. In alert, we use bracket and use single quotes and enter the message that needs to be displayed.
+                Alert is a blocking element. untill you click on the ok button, you cannot do anything on that page.</p>
+    </body>
+</html>

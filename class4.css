@@ -1,0 +1,28 @@
+.divtoday
+{
+    background-color: cadetblue;
+    border: 5px solid blue;
+    margin: 10px 30px 50px 60px;
+    padding: 20px 40px 60px 80px;
+}
+.nav-bar-main
+{
+    background-color: #232f3e;
+    color: #ffffff;
+}
+body
+{
+    margin: 0px;
+}
+.nav-bar-left
+{
+    display: inline-block;
+}
+.nav-bar-right
+{
+    display: inline-block;
+}
+.navbar-element
+{
+    display: inline-block;
+}

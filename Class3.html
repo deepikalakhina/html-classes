@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Margin and Padding and Display</title>
+        <link rel="stylesheet" href="class3.css"></link>
+    </head>
+    <body>
+        <div class="Paaru" style="background-color: green;">
+            <h1>Padding and Margin</h1>
+            <p>Space between 2 containers is margin. Space between the content within the container and border of the container.</p>
+        </div>
+        <div class="Paaru">
+            <p>Box Model - The CSS box model is essentially a box that wraps around every HTML element. 
+                It consists of Content, Padding, Border, Margin in the same order mentioned.</p>
+                <p>Browser gives priority to apply the CSS in the order - 1st Inline, 2nd Style Tag and then Linked CSS File. 
+                    We use Inline when we have to give special style to any element based on requirement / scenario.</p>
+                <p>When you want to apply CSS for multiple classes in this case Paaru and Mingi, you need to seperate them using Comma. 
+                    If comma is not used, then it become Nested Classes</p>
+                    <p>Nested Tag - If we want to give style to specific nested tag ex - body div div p. </p>
+                    <p>Display Property - The DIV Block Element takes the width of complete viewport hence the next DIV element takes the next line. 
+                        In order to get to DIV block elements side by side we use Display Property. 
+                        Now, when used with Inline, the browser tries to get the block in 1 line, it gets the div / any other block element inline 
+                        but it cannot get its content because it doesnt consider the width of the inside element.(check google).
+                    So, inline block is used to get the two or more block elements side by side. 
+                We can also convert inline element to block and vice versa.</p>
+        </div>
+        <div class="mingi">
+            <div>
+                <p>Nested DIV 1</p>
+            </div>
+            <div>
+                <p>Nested DIV 2. Nested DIV 3</p>
+            </div>
+        </div>
+    </body>
+    <!-- <style>
+        .Paaru
+        {
+            background-color: brown;
+            border: 10px, dashed greenyellow;
+            border-radius: 15px;
+        }
+    </style> -->
+</html>

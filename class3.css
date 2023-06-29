@@ -1,0 +1,23 @@
+.Paaru
+{
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: burlywood;  
+}
+.mingi div
+{
+    background-color: cadetblue;
+    border: 2px solid red;
+}
+.Paaru, .mingi
+{
+    color: beige;
+}
+body div div p
+{
+    text-decoration: underline;
+}
+.mingi div
+{
+    display: inline-block;
+}

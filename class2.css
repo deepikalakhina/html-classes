@@ -1,0 +1,31 @@
+p{
+    color:blue;
+}
+h1{
+    color:red;
+}
+#div1
+{
+    background-color: aquamarine;
+    text-align: center;
+    border: 5px solid black; 
+    border-radius:40px;
+}
+#div2
+{
+    background-color: bisque;
+    text-align: right;
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+#div3
+{
+    background-color:burlywood;
+    text-align: center;
+    text-decoration: underline;
+}
+#div4
+{
+    background-color:cyan;
+}

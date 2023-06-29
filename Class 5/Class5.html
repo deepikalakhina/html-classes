@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Class 5 - Form</title>
+    </head>
+    <body>
+        <h1>Forms</h1>
+        <p>Synchronous Loading - Every tasks will complete only after the previous one is completed.</p> 
+        <p>Asynchronous Loading - The tasks will execute side by side, we dont have to wait for the 1st one to complete.</p>
+        <p>There are 5 ways to collect user inputs. Text - (Text Box, Text Area), Radio Button, Checkbox, submit button, Normal Button.</p>
+        <p>Closing Tag can be done inside the starting tag if theres no content between the starting tag and closing tag. ex - (input/)</p>
+        <p>Radio Input requires defining of Type and Value.</p>
+        <p>Text Input - 1 Input Type has 1 Label using ID, label has its unique id.</p>
+        <p>Label has 1 property, its "for". </p>
+        <p>Restrict user in choosing the available set of options. 1st Set - Only 1 option can be chosen</p>
+        <p>We can use underscore or camel case while defining the id with multiple words.</p>
+        <p>camel case - 1st letter of 1st word is small and next word's 1st letter is captial - ex - maleOptionGorilla</p>
+            <p>name property is used to read a single value out of a set of Radio Button. ex - gender. its a variable which holds the value - male or female</p>
+        <div>
+            <form>
+                <label for="username">username</label>
+                <input type="text" id="username"/>
+            </form>
+            <br>
+            <form>
+                <label for="description">Username</label>
+                <textarea id="description"></textarea>
+            </form>
+            <br>
+            <form>
+                <label for="password">password</label>
+                <input type="password" id="password"/>
+            </form>
+            <br>
+            <form>
+                <p>Choose Your Gender</p>
+                <label for="maleOption">Male</label>
+                <input type="radio" value="male" id="maleOption" name="gender"/>
+                <label for="femaleOption">Female</label>
+                <input type="radio" value="female" id="femaleOption" name="gender"/>
+            </form>
+        </div>
+    </body>
+</html>
