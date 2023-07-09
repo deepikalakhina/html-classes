@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Variable, Functions, Loops</title>
+    </head>
+    <body>
+        <h1>Variable, Functions, Loops</h1>
+        <p>Complex Data Types - Array and Objects. Array - Collection of Similar Data Types. 
+            In Javascript, it's also possible to collect diferent data types inside array. There can also be an array inside an array.</p>
+            <p>Declaration, Assignment and Definition. When we name the variable using var tag, its called decalaration. ex - var qas. 
+                When we assign value to the variable it's called Assignment, ex - "var qas = 123.</p>
+        <p>Array - We us Square Bracket. Empty Square Brackets is called Empty Array.</p>
+        <p>Length - Property</p>
+        <p>indexOf - Function</p>
+        <p>Repeated Elements in an Array and we want to know the last position of that repeated element we use last index of. It's in camel case</p>
+        <p>Object - Elements are displayed one after the other but no index. we represent object in a format called key value pair.</p>
+        <p>Key is unique name, Value is Unique or same Value. Key cannot have same name but values can be same or different. This is valid only in an object.</p>
+        <p>Object will not have semicolon if only 1 keyvaluepair. 
+            When more keyvaluepair, we use Comma and the last keyvaluepair will have no comma or no semicolon. 
+            the object is closed using curly bracket with semicolon.</p>
+        <p>Variable is always in camel case, small</p>
+    </body>
+    <script>
+        var qas = [1,2,3,4,5,6,4,9,4,10,4];
+        var das = ["222","333","444","888"];
+        // console.log(qas);
+        // console.log(das);
+        // console.log("qas length",qas.length);
+        // console.log("das length",das.length);
+        // console.log("das index",das.indexOf("444"));
+        // console.log("qas last index",qas.lastIndexOf(4));
+        var ras = das[1];
+        // console.log("known index",ras);
+
+        var obj = {
+            key1: 1234,
+            key2: true,
+            key3: "rrr",
+            key4: [1,2,3,4,5]
+        };
+        var a = "key4"
+        console.log(obj);
+        console.log(obj.key2);
+        console.log(obj['key2']);
+        console.log(obj[a]);
+        console.log(Object.keys(obj));
+        var b = Object.keys(obj)
+        console.log("obj length",b.length);
+    </script>
+</html>
